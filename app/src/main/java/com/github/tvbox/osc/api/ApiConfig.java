@@ -128,7 +128,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://www.饭太硬.top/tv/,http://xhww.fun/小米/DEMO.json,https://github.moeyy.xyz/raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json,https://100km.top/0,https://jihulab.com/okcaptain/kko/-/raw/main/ok.txt,http://cdn.qiaoji8.com/tvbox.json,https://api-lmteam.koyeb.app/files/py.json,https://tvbox.cainisi.cf,https://mirror.ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json,https://mirror.ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json,https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json,http://肥猫.live,https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json,http://bp.tvbox.cam/,http://tv.nxog.top/m/,http://我不是.摸鱼儿.top,http://小鱼干.摸鱼儿.top,http://清清.摸鱼儿.top");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
